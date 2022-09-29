@@ -1,0 +1,517 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Roboto",sans-serif;
+
+}
+body{
+    width:100%;
+    height:100vh;
+    background-color:#F5F5F5;
+}
+header{
+    background-color: #3400FF;
+    height:75vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 100;
+}
+.nav-item{
+ margin-top: 20px;
+ margin-right: 20px;
+ /*padding: 0 5px;*/
+}
+.nav-item-active{
+    color: black;
+    background-color: #fff;
+    margin-top: 20px;
+   margin-right: 5px;
+}
+.logo{
+    margin-left: 30px;
+}
+.header-text{
+    margin-left: 30px;
+}
+.header-text img{
+    margin-top: 50px;
+}
+h2{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
+}
+p{
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 100;
+}
+.header-image{
+     position: absolute;
+     right: 0px;
+     top: 70px;
+    width: 550px;
+    
+    
+    
+}
+
+.company-items{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    padding: 0 25px;
+    
+}
+.api{
+    margin-left: 30px;
+   /* background-color: aliceblue;*/
+}
+.api-heading{
+    margin-top: 90px;
+    font-weight: 900;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    
+}
+.card-active{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(128,128,128,0.1);
+    }
+    .card-active img{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .card-head-active{
+        color:#5A31FC;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+.card-active .card-body{
+    color:black;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    
+}
+.card-logo{
+    margin-top: 15px;
+}
+.card-head{
+    margin-top: 10px;
+}
+.card-body{
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.cards .card{
+    margin-right: 60px;
+}
+/*.scroll{
+    border-radius: 50%;
+    border-color: transparent;
+    padding:10px 15px;
+    background-color: blue;
+    color: #fff;
+    position: relative;
+    top:60px;
+    right: 60px;
+}*/
+.blog-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   /* background-color: aliceblue;*/
+}
+.blog-heading h1{
+    margin-left: 30px;
+    font-weight: 900;
+}
+.blog-heading h5{
+    margin-top: 30px;
+    color: blue;
+    margin-right: 40px;
+}
+.blog-cards{
+    display: flex;
+    flex-direction: row;
+   /* background-color: aliceblue;*/
+}
+.blog-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(128,128,128,0.1);
+
+}
+.blog-content{
+    margin-left: 40px;
+
+}
+.blog-card h6{
+    /*margin-left: 40px;*/
+    margin-top: 30px;
+    color: blue;
+}
+.blog-card h3{
+    /*margin-left: 40px;*/
+    margin-top: 10px;
+}
+ 
+ .blog-bottom{
+    position: relative;
+    top:255px;
+    right:170px;
+ }
+ .blog-author{
+    position: relative;
+    top:130px;
+    right:80px;
+ }
+ .faq-section{
+    background-color: #E9EDEF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+ }
+ .faq-content{
+    margin-left: 40px;
+ }
+ .faq-content h2{
+    color: black;
+      
+ }
+ .faq-content h4{
+    margin-top: 20px;
+ }
+ .faq-content .p{
+    font-weight: 100;
+    font-size: 15px;
+ }
+ .faq-content button{
+    margin-top: 20px;
+    background-color: #5A31FC;
+    color: #fff;
+    border-color: transparent;
+    padding:5px 10px;
+ }
+ .download-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .download-content{
+    margin-top: 50px;
+    margin-left: 40px;
+ }
+ span{
+    font-weight: 100;
+ }
+ .download-email{
+    margin-top: 50px;
+    margin-right: 150px;
+ }
+ input{
+    border-radius: 20px;
+    padding:7px 40px;
+    padding-right: 140px;
+    background-color: #E9EDEF;
+    border-color: transparent;
+ }
+ form button{
+    border-radius: 20px;
+    background-color:#5A31FC;
+    color: #fff;
+    padding: 7px 10px;
+    border-color: transparent;
+    position: relative;
+    right:20px;
+ }
+ .footer-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+   align-items: center;
+ }
+ .footer-logo{
+    margin-left: 40px;
+    margin-top: 30px;
+ }
+ .footer-left .list{
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    /*list-style-type: symbols(|);*/
+    list-style-type: none;
+
+ }
+  .list-items{
+    margin-left: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+ }
+ .footer-right{
+    margin-top: 30px;
+    margin-right: 30px;
+ }
+.logos-list{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 100;
+    position: relative;
+    right: 50px;
+}
+
+
+/*Media Queries*/
+
+
+@media screen and (max-width:480px){
+    .logo{
+    width: 100px;
+    margin-top: -20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-item-active{
+        margin-top: 20px;
+    }
+   .header-image{
+    margin-left: 110px;
+    width: 70%;
+    margin-top: 210px;
+   
+    
+   }
+   .header-text h2{
+    font-size: 20px;
+    line-height: 30px;
+   }
+   .companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+   .card{
+    margin-right: -60px;
+    
+   }
+   .card-active{
+    width: 300px;
+   }
+   .blog-heading{
+    margin-top: 50px;
+   }
+   .blog-heading h1{
+    line-height: 30px;
+    margin-left: 10px;
+   }
+   .blog-heading h5{
+    margin-right: 10px;
+   }
+  
+   .blog-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .blog-card{
+    display: flex;
+    flex-direction: column;
+   }
+   .blog-author{
+    display: none;
+   }
+   .faq-image{
+    display: none;
+   }
+   
+   .download-section{
+      display: flex;
+      flex-direction: column;
+      
+   }
+   .download-content{
+    margin-left: 70px;
+   }
+   .download-email form{
+    margin-left: 50px;
+    margin-top: 0px;
+   }
+    input{
+   padding-right: 50px;
+   }
+   form button{
+    margin-left: 100px;
+    margin-top: 25px;
+   }
+   .footer-logo{
+    display: none;
+   }
+   .footer-left {
+    display: none;
+    
+   }
+ .footer-right{
+    margin-left: 60px;
+ }
+ .footer-right .logos-list{
+    margin-left: 50px;
+ }
+}
+@media (min-width:481px) and (max-width:768px){
+   
+    .nav-item{
+        display: none;
+    }
+.header-image{
+   margin-left: 460px; 
+   margin-top: 90px;
+   width: 40%;
+   
+}
+.header-text h2{
+    font-size: 25px;
+}
+.blog-cards{
+    display: flex;
+    flex-direction: column;
+}
+.api .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.cards .card-active{
+    margin-right: 40px;
+}
+.cards .card{
+   
+    margin-right: 40px;
+}
+.blog-heading{
+    margin-top: 70px;
+}
+.blog-author{
+    margin-right: 50px;
+}
+.blog-content h6{
+    font-size: 20px;
+}
+.blog-content h3{
+    font-size: 20px;
+}
+.faq-image{
+    display: none;
+}
+.download-email{
+    display: flex;
+    flex-direction: row;
+
+}
+input{
+    padding-right: 40px;
+}
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .header-image{
+        margin-left: 610px;
+       
+        width: 40%;
+       
+    }
+    .api .cards{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .cards .card-active{
+        margin-right: 100px;
+    }
+    .cards .card{
+       
+        margin-right: 100px;
+    }
+    .blog-heading{
+        margin-top: 100px;
+    }
+    .blog-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-content{
+        
+        width: 300px;
+    }
+    .blog-content h6{
+        font-size: 20px;
+    }
+    .blog-content h3{
+        font-size: 20px;
+    }
+    .blog-content small{
+        
+        font-size: 15px;
+    }
+    .blog-card{
+        width: 670px;
+        margin-top: 60px;
+    }
+}
+
+@media  (min-width:1025px) and (max-width:1440px){
+    .header-image{
+      margin-left: 890px;  
+    }
+}
